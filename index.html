@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paras - portfolio </title>
+    <link rel="shortcut icon" href="./portfolio-favicon/favicon.ico" type="image/x-icon">
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body onload="showAlert()">
+
+    <!-- custom cursor -->
+    <div class="cursor1"></div>
+    <div class="cursor2"></div>
+
+    
+
+   
+    <div class="CTime">
+        
+       <div id="stopClockSound" onclick="playSound()"><span class="hr">08</span>:<span class="min">00</span>:<span class="sec"> 30 </span> <span class="am-pm">pM</span>
+       </div> 
+
+       <div class="CDate" onclick="stopSound()"><span class="Sdate"></span></div>
+    
+    </div>
+
+  
+    <i class="fas fa-moon">hi</i>
+
+
+    <div onclick="menuBar()" id="menu-bars" class="fas fa-bars "></div>
+
+    <div class="fas fa-moon" id="mode" onclick="Modebtn()"></div>
+    <!-- header start here -->
+    <header>
+       
+        <a href="#" id="logo"><span>Paras</span> </a>
+        <div class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#service">service</a>
+            <a href="#project">project</a>
+            <a href="#contact">contact</a>
+        </div>
+
+        <div class="follow">
+            <a href="https://www.facebook.com/profile.php?id=100013601923588" class="fab fa-facebook-f"
+                target="_blank"></a>
+            <a href="https://twitter.com" class="fab fa-twitter" target="_blank"></a>
+            <a href="https://instagram.com/paras1234567891011121314151617?igshid=YmMyMTA2M2Y=" class="fab fa-instagram"
+                target="_blank"></a>
+            <a href="https://www.linkedin.com/in/paras-singh-a46655229" class="fab fa-linkedin" target="_blank"></a>
+        </div>
+    </header>
+    <!-- header end here -->
+
+    <!-- home section start here -->
+
+    <section class="home" id="home">
+
+        <div class="home-circle" id="home-circle1"></div>
+        <div class="home-circle" id="home-circle2"></div>
+        <div class="home-circle" id="home-circle3"></div>
+
+        <div class="content">
+            <span class="hi"> hi </span>
+            <h3>i am <span>paras</span></h3>
+            <p class="info">iam a front-end developer</p>
+
+            <a href="#about" class="btn">about me</a>
+        </div>
+        <div class="image">
+            <img src="./images/home-image01.png" alt="my image">
+        </div>
+    </section>
+
+
+    <!-- home section end here -->
+
+    <!-- about section start here -->
+
+    <section class="about" id="about">
+
+        <h1 class="heading">about <span>me</span></h1>
+        <div class="row1">
+
+            <div class="image">
+                <img src="./images/about-image02.png" alt="about me">
+            </div>
+
+            <div class="content">
+                <h3>my name is PARAS and i am a front-end developer</h3>
+
+               
+                    
+              
+
+                <div class="box-container">
+
+                    <div class="box">
+                        <p><span>age: </span>24</p>
+                        <p><span>gender: </span>male</p>
+                        <p><span>language: </span>hindi , english</p>
+                        <p><span>work: </span>front-end developer</p>
+                    </div>
+                    <div class="box">
+                        <p><span>phone: </span>+91 9315319021</p>
+                        <p class="lowercase"><span>email: </span>newparas11422@gmail.com</p>
+                        <p><span>country: </span> india</p>
+                    </div>
+
+                </div>
+                <a href="./images/home-image01.png" class="btn" download>download CV</a>
+
+            </div>
+        </div>
+
+        <h1 class="heading"><span>my</span> skills</h1>
+        <div class="row2">
+
+            <div class="skills">
+
+                <div class="progress">
+                    <h3>Html <span> 80%</span></h3>
+                    <div class="bar html"><span></span></div>
+                </div>
+
+                <div class="progress">
+                    <h3>css <span> 70%</span></h3>
+                    <div class="bar css"><span></span></div>
+                </div>
+
+                <div class="progress">
+                    <h3> javascript <span> 50%</span></h3>
+                    <div class="bar js"><span></span></div>
+                </div>
+
+                <div class="progress">
+                    <h3> react <span> 60%</span></h3>
+                    <div class="bar react"><span></span></div>
+                </div>
+
+            </div>
+
+            <div class="box-container">
+
+                <div class="box">
+                    <h3> >> 1</h3>
+                    <p>years of experience</p>
+                </div>
+
+                <div class="box">
+                    <h3> >> 10+</h3>
+                    <p>projects</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- about section end here -->
+
+    <!-- service section start here -->
+
+    <section class="service" id="service">
+
+        <h1 class="heading"> <span> my </span> services </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fas fa-code"></i>
+                <h3>web design</h3>
+
+            </div>
+
+
+            <div class="box">
+                <i class="fas fa-mobile"></i>
+                <h3>responsive design</h3>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-bullhorn"></i>
+                <h3>seo marketing</h3>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-chart-line"></i>
+                <h3>solving bugs in css and javascript</h3>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-envelope"></i>
+                <h3>email marketing</h3>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- service section end here -->
+
+
+    <!-- project section start here -->
+    <section class="project" id="project">
+
+        <h1 class="heading"><span>my</span>project</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="./images/img-1.jpg" alt="project image">
+                <h3>project 01</h3>
+                <div class="icons">
+                    <a href="#" class="fas fa-link"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-search"></a>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <img src="./images/img-2.jpg" alt="project image">
+                <h3>project 02</h3>
+                <div class="icons">
+                    <a href="#" class="fas fa-link"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-search"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/img-3.jpg" alt="project image">
+                <h3>project 03</h3>
+                <div class="icons">
+                    <a href="#" class="fas fa-link"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-search"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/img-4.jpg" alt="project image">
+                <h3>project 04</h3>
+                <div class="icons">
+                    <a href="#" class="fas fa-link"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-search"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/img-5.jpg" alt="project image">
+                <h3>project 05</h3>
+                <div class="icons">
+                    <a href="#" class="fas fa-link"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-search"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/img-6.jpg" alt="project image">
+                <h3>project 06</h3>
+                <div class="icons">
+                    <a href="#" class="fas fa-link"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-search"></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- project section end here -->
+
+    <!-- contact section start here -->
+    <section class="contact" id="contact">
+
+        <h1 class="heading">Contact <span>me</span></h1>
+        <div class="icons-container">
+
+            <div class="icons">
+                <i class="fas fa-envelope"></i>
+                <h3>my email</h3>
+                <p><a href="mailto:newparas11422@gmail.com"> newparas11422@gmail.com </a></p>
+            </div>
+
+
+            <div class="icons">
+                <i class="fas fa-phone"></i>
+                <h3>my no</h3>
+                <p> <a href="tel:+91 931519021">+91 931519021</a> </p>
+            </div>
+
+ 
+            <div class="icons">
+                <i class="fas fa-map-marked-alt"></i>
+                <h3>my address</h3>
+                <p>kakrola more delhi , india </p>
+            </div>
+
+
+        </div>
+
+        <div class="row">
+            <form action="">
+
+                <input type="text" placeholder="name" class="box" required>
+                <input type="email" placeholder="email" class="box" required>
+                <input type="number" placeholder="number" class="box" required>
+
+                <textarea name="" placeholder="message" id="" cols="30" rows="10" required></textarea>
+
+                <input type="submit" class="btn" value="send message">
+
+            </form>
+            <div class="map">
+                <iframe class="location"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112124.07799126413!2d76.97505434164239!3d28.573442878755323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1a9c31eec4e1%3A0x39493976cba4c89a!2sDwarka%2C%20New%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1652069075584!5m2!1sen!2sin"
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section end here -->
+
+<!-- gallery slider start here -->
+<section class="slide">
+<div class="slider">
+
+    <div class="img">
+        <img src="./images/slide1.jpg" alt="" class="slide1">
+    </div>
+    <div class="img">
+        <img src="./images/slide2.jpg" alt="" class="slide2">
+    </div>
+    <div class="img">
+        <img src="./images/slide3.jpg" alt="" class="slide3">
+    </div>
+    <div class="img">
+        <img src="./images/slide4.jpg" alt="" class="slide4">
+    </div>
+    <div class="img">
+        <img src="./images/slide5.jpg" alt="" class="slide5">
+    </div>
+    <div class="img">
+        <img src="./images/slide6.jpg" alt="" class="slide6">
+    </div>
+    <div class="img">
+        <img src="./images/slide7.jpg" alt="" class="slide7">
+    </div>
+
+    <!-- 2nd one -->
+    <div class="img">
+        <img src="./images/slide1.jpg" alt="" class="slide1">
+    </div>
+    <div class="img">
+        <img src="./images/slide2.jpg" alt="" class="slide2">
+    </div>
+    <div class="img">
+        <img src="./images/slide3.jpg" alt="" class="slide3">
+    </div>
+    <div class="img">
+        <img src="./images/slide4.jpg" alt="" class="slide4">
+    </div>
+    <div class="img">
+        <img src="./images/slide5.jpg" alt="" class="slide5">
+    </div>
+    <div class="img">
+        <img src="./images/slide6.jpg" alt="" class="slide6">
+    </div>
+    <div class="img">
+        <img src="./images/slide7.jpg" alt="" class="slide7">
+    </div>
+</div>
+
+</section>
+<!-- gallery slider start here -->
+    <!-- footer section start here -->
+
+    <footer class="footer">
+        <div class="header-icons">
+            <a href="https://www.facebook.com/profile.php?id=100013601923588" class="fab fa-facebook-f"
+            target="_blank"></a>
+        <a href="https://twitter.com" class="fab fa-twitter" target="_blank"></a>
+        <a href="https://instagram.com/paras1234567891011121314151617?igshid=YmMyMTA2M2Y=" class="fab fa-instagram"
+            target="_blank"></a>
+        <a href="https://www.linkedin.com/in/paras-singh-a46655229" class="fab fa-linkedin" target="_blank"></a>
+        </div>
+
+        <div class="footer-navigation">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#service">service</a>
+            <a href="#project">project</a>
+            <a href="#contact">contact</a>
+        </div>
+        <div class="created"> created by <span> PARAS </span> | all rights reserved! 
+        </div>
+    </footer>
+
+    <!-- footer section end here -->
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
