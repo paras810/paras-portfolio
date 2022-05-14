@@ -126,11 +126,10 @@ let Sdate = document.querySelector('.Sdate')
 let date = new Date()
 let show_date = date.toDateString()
 Sdate.innerHTML = show_date
-console.log(show_date);
 
 // clock sound
 let stopClockSound = document.getElementById('stopClockSound')
-let auto_play_sound = new Audio('/audio/clock-sound.wav')
+let auto_play_sound = new Audio('./audio/clock-sound.mp3')
 
 const showAlert = () => {
     alert('for play clock sound click on time and for stop clock sound click on date')
